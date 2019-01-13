@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnlockTogether
 {
@@ -10,6 +6,10 @@ namespace UnlockTogether
     {
         static void Main(string[] args)
         {
+            Console.Title = "UnlockTogether - Farm Together event items unlocker";
+            new Unlocker().Init();
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
